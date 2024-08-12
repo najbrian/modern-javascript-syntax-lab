@@ -84,5 +84,20 @@ const values = (noun='cat', adjective='white') => {
   return `The ${noun} is ${adjective}`
 }
 
-console.log(values())
-console.log(values('dog','black'))
+// console.log(values())
+// console.log(values('dog','black'))
+
+
+// Convert the following `if...else` statement in to a ternary:
+
+let pizza = 'tasty';
+
+if (pizza === 'tasty') {
+  // console.log('yum');
+} else {
+  // console.log('yuck');
+}
+
+// Your code here
+
+// console.log(pizza === 'tasty' ? 'yum' : 'yuck')
