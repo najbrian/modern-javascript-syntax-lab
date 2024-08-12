@@ -119,5 +119,21 @@ const localLangConfig = null;  // Change to 'es', 'fr', etc., or keep it null
 
 const LANG = localLangConfig || 'en'
 
+
+
 // Log the result
 // console.log('Language setting:', LANG);
+
+// 2. SET WEBSITE THEME
+
+const userSavedTheme = 'contrast'; // Change to 'dark', 'contrast', etc., or keep it null
+
+// a. Create a variable called USER_THEME
+// b. Assign USER_THEME the value of userSavedTheme or 'light' as a default
+
+// Your code here
+
+const USER_THEME = userSavedTheme || 'light'
+
+// Log the result
+// console.log('User theme setting:', USER_THEME);
