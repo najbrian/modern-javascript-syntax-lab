@@ -47,7 +47,7 @@ const controversialPizzaToppings = [...pizzaToppings]
 
 // Your code here
 
-myCar = {...car}
+const myCar = {...car}
 
 myCar.model = 'q7'
 
@@ -69,3 +69,20 @@ const propertyName = 'email'
 
 
 // console.log(userProfile[propertyName])
+
+
+// Create a function that takes two parameters, `noun` and `adjective`, both with the following respective default values:
+
+// 1. `cat`
+
+// 2. `white`
+
+// The function should log a sentence 'The cat is white.' by default. The function should substitute the appropriate parameters when supplied arguments.
+
+// Your code here
+const values = (noun='cat', adjective='white') => {
+  return `The ${noun} is ${adjective}`
+}
+
+console.log(values())
+console.log(values('dog','black'))
